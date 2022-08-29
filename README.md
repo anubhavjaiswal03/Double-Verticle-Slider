@@ -1,3 +1,3 @@
-# Double Verticle Slide
+# Double Verticle Slider
 
 ![Double Verticle Slider](double-verticle-slider.gif)
