@@ -3,12 +3,70 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="style.css" />
-		<title>My Project</title>
+		<title>Double Verticle Slider</title>
 	</head>
 	<body>
-		<h1>MY Project</h1>
-		
+		<div class="slider-container">
+			<div class="left-slide">
+				<div style="background-color: #fd3555">
+					<h1>Nature Flower</h1>
+					<p>all in pink</p>
+				</div>
+				<div style="background-color: #2a86ba">
+					<h1>blue Sky</h1>
+					<p>with it's mountains</p>
+				</div>
+				<div style="background-color: #252e33">
+					<h1>Lonely Castle</h1>
+					<p>in the wilderness</p>
+				</div>
+				<div style="background-color: #ffb866">
+					<h1>Flying Eagle</h1>
+					<p>in the sunset</p>
+				</div>
+			</div>
+			<div class="right-slide">
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1600576761664-712e35029286?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2448&q=80');
+					"
+				></div>
+
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1508682641856-78948a748357?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870&q=80');
+					"
+				></div>
+
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1540637170921-4fb2f7fc48de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
+					"
+				></div>
+
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1607962783399-e7e0bb2d79a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80');
+					"
+				></div>
+			</div>
+			<div class="action-buttons">
+				<button class="down-button">
+					<i class="fas fa-arrow-down"></i>
+				</button>
+				<button class="up-button">
+					<i class="fas fa-arrow-up"></i>
+				</button>
+			</div>
+		</div>
 		<script src="script.js"></script>
 	</body>
 </html>
